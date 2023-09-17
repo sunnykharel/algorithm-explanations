@@ -1,1 +1,0 @@
-This solution iterates the array once, while progressively marking "progress" in the subsequence search. The "progress" is stored in the seqPtr variable. When we encounter a value in the array such that value == sequence[seqPtr], we increment the seqPtr to mark forward progression in our search. When seqPtr finally reaches sequence.size() our search is complete.
