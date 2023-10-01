@@ -1,0 +1,1 @@
+This algorithm iterates the BST to search for the closest value. If the current BST node has a value greater than target, then we go left, otherwise right. We keep track of the closest value encountered throughout, and return it at the end.
